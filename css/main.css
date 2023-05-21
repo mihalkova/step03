@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    background: #FDFCEF;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+body1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    ;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.card{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+.header img{
+    width: 245px;
+    height: 60px;
+}
+
+.main{
+    display: flex;
+}
+
+.text h2, h7{
+    max-width: 465px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px; 
+
+color: #000000;
+}
+
+.pic img{
+    max-width: 465px;
+ 
+}
+
+.button a{
+    width: 81px;
+height: 25px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.button{
+
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 22px 70px;
+gap: 10px;
+
+width: 221px;
+height: 69px;
+
+background: #FF6861;
+border-radius: 100px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.text2{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 720px;
+height: 442px;
+
+}
